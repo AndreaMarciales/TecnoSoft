@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="css/iniciarSesion.css">
+    <link rel="stylesheet" href="js/validacionAdmin.js">
+    <link rel="icon" href="imgpag/logo-tecno-soft.png" type="image/jpg" />
+</head>
+<body>
+    
+
+    <div class="login-container"> 
+        <img src="imgpag/user (2).png" alt="Person" class="person"> 
+        <div class="login">
+            <form id="loginForm">
+                <h2>Iniciar Sesión</h2> 
+
+                <div class="input-group"> 
+                    <img src="imgpag/login-avatar.png" alt="user" width="25px" height="25px"> 
+                    <label for="nombre">Nombre</label> 
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required> 
+                    <span id="nombreError" class="error-message"></span>
+                </div> 
+
+                <div class="input-group"> 
+                    <img src="imgpag/encerrar.png" alt="Password" width="25px" height="25px"> 
+                    <label for="password">Contraseña</label> 
+                    <input class="input" type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required> <span id="passwordError" class="error-message"></span> 
+                </div> 
+                <div class="boton">
+                    <div class="input-group"> 
+                        <button type="submit" >Iniciar Sesión</button> 
+                    </div> 
+                </div>
+            </form> 
+        </div>
+        <script src="js/validacionAdmin.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecno Soft</title>
+    <link rel="stylesheet" href="css/pagina.css" />
+    <link rel="icon" href="imgpag/logo-tecno-soft.png" type="image/jpg" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/carrusel.css">
+  </head>
+  <body id="Inicio">
+    <section class="sectionnav">
+      <div>
+        <a href="index.html"
+          ><img src="imgpag/tecno-soft.png" alt="" width="300" height="80"
+        /></a>
+      </div>
+      <div class="navegacion">
+        <nav>
+          <a href="#Inicio">Inicio</a>
+          <a href="#SobreNosotros">Sobre Nosostros</a>
+          <a href="#Servicios">Servicios</a>
+          <a href="#Contacto">Contacto</a>
+          <a href="graficos.html">Dashboard</a>
+          <a href="IniciarSesionAdmin.html"
+            ><img class="iconadmin" width="27" src="imgpag/user.png" alt=""
+          /></a>
+          
+        </nav>
+      </div>
+    </section>
+
+    <section class="sectionhead">
+      <div class="imagen-container">
+        <img class="imagenhead" src="imgpag/fondito1.jpg" alt="" />
+        <h1 class="texto-centro"><i>#SOMOS TECNO SOFT</i></h1>
+        <h6>Transforma tu futuro con innovación tecnológica</h6>
+      </div>
+    </section>
+
+    <section id="SobreNosotros" class="secsobrenos">
+      <div class="divsobrenostext">
+        <br />
+        <h2>Sobre Nosostros</h2>
+        <br />
+        <h4>
+          <p>
+            En Tecno Soft, transformamos ideas en experiencias digitales
+            excepcionales. Con un equipo de expertos en tecnología y
+            creatividad, ofrecemos soluciones innovadoras que impulsan el éxito
+            de nuestros clientes en el competitivo mundo en línea. Desde el
+            inicio, nos hemos comprometido con la excelencia, priorizando la
+            satisfacción del cliente y la calidad en cada proyecto.
+          </p>
+          <p>
+            Desde nuestros inicios, nos hemos comprometido con la excelencia,
+            priorizando la satisfacción del cliente y la calidad en cada
+            proyecto que emprendemos. En Tecno Soft, creemos que cada detalle
+            cuenta, y trabajamos incansablemente para asegurarnos de que
+            nuestras soluciones no solo cumplan con las expectativas, sino que
+            las superen.
+          </p>
+        </h4>
+        <br />
+
+        <input
+          class="btnsobrenos"
+          type="submit"
+          value="Más Sobre Nosotros ..."
+        />
+        <!--
+          onclick="window.location.href='Nosotros.html';"-->
+      </div>
+
+      <div class="divsobrenosimg">
+        <img class="sobrenosimg" src="imgpag/imgsobrenos.jpg" alt="" />
+      </div>
+    </section>
+
+        <section id="Servicios">
+          <h2 class="serviciostitulo">Nuestros servicios</h2>
+          <div class="carousel-container">
+            <div class="carousel">
+              <div class="servicio">
+                <img src="imgpag/desarrollo-web.png" alt="Diseño y desarrollo web" class="servicio-imagen">
+                <h3><b>Diseño y desarrollo web</b></h3>
+                <p>Este servicio incluye la creación de sitios web personalizados, desde el análisis y planificación iniciales, pasando por el diseño gráfico, hasta la codificación y el lanzamiento del sitio web.</p>
+              </div>
+              <div class="servicio">
+                <img src="imgpag/seo.png" alt="Optimización para motores de búsqueda (SEO)" class="servicio-imagen">
+                <h3><b>Optimización para motores de búsqueda (SEO)</b></h3>
+                <p>Mejora la visibilidad del sitio web en motores de búsqueda mediante la investigación de palabras clave, optimización del contenido, estrategias de link building y análisis del</p>
+              </div>
+              <div class="servicio">
+                <img src="imgpag/app-web.png" alt="Desarrollo de aplicaciones web" class="servicio-imagen">
+                <h3><b>Desarrollo de aplicaciones web</b></h3>
+                <p>Creación de aplicaciones que se ejecutan en navegadores web utilizando tecnologías como HTML, CSS, JavaScript y frameworks como React y Angular.</p>
+              </div>
+              <div class="servicio">
+                <img src="imgpag/reparacion-de-maquinas.png" alt="Mantenimiento y actualización" class="servicio-imagen">
+                <h3><b>Mantenimiento y actualización</b></h3>
+                <p>Asegura que el sitio web siga siendo seguro y eficiente mediante la actualización de contenido, corrección de errores, mejoras de seguridad y soporte técnico continuo.</p>
+              </div>
+              <div class="servicio">
+                <img src="imgpag/hosting.png" alt="Hospedaje web (hosting)" class="servicio-imagen">
+                <h3><b>Hospedaje web (hosting)</b></h3>
+                <p>Provisión de espacio en servidores para alojar sitios web, con opciones de hosting compartido, VPS y dedicado, además de soporte técnico y medidas de seguridad.</p>
+              </div>
+              <div class="servicio">
+                <img src="imgpag/servicios-de-consultoria.png" alt="Consultoría y estrategia digital" class="servicio-imagen">
+                <h3><b>Consultoría y estrategia digital</b></h3>
+                <p>Asesoramiento experto para mejorar la presencia en línea, que incluye auditorías, planificación estratégica y recomendaciones basadas en el análisis del desempeño y las tendencias del mercado.</p>
+              </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+          </div>
+        </section>
+        <script src="js/carrusel.js"></script>
+
+    <section id="Contacto" class="secformulario">
+      <h2>CONTÁCTANOS</h2>
+      <br />
+      <div class="divformulario">
+        <div class="divform">
+          <form id="formularioContacto" onsubmit="validarFormulario(event)">
+            <label for="nombre">Nombre:</label><br />
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              required
+              pattern="[A-Za-záéíóúÁÉÍÓÚÑñ\s]+"
+              title="Solo se permiten letras y espacios"
+            />
+            <div id="errorNombre" class="error">
+              El nombre solo debe contener letras.
+            </div>
+            <br /><br />
+
+            <label for="telefono">Número de teléfono:</label> <br />
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              required
+              pattern="[0-9]{10}"
+              title="Escribe un numero con 10 valores"
+            />
+            <div id="errorTelefono" class="error">
+              El teléfono debe contener solo números y tener 10 dígitos.
+            </div>
+            <br /><br />
+
+            <label for="correo">Correo electrónico:</label><br />
+            <input type="email" id="email" name="email" required />
+            <div id="errorEmail" class="error">
+              Por favor, ingrese un correo electrónico válido.
+            </div>
+            <br /><br />
+
+            <label for="mensaje">Mensaje:</label><br />
+            <textarea id="mensaje" name="mensaje" required></textarea><br />
+            <div id="errorMensaje" class="error">
+              Por favor, ingrese un mensaje.
+            </div>
+            <br />
+
+            <div class="divbtnenviarform">
+              <input class="btnenviarform" type="submit" value="ENVIAR" />
+              <div class="result" id="resultado"></div>
+              <button
+                class="btnenviarform"
+                id="btnOK"
+                style="display: none"
+                onclick="resetearFormulario()"
+              >
+                OK
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d830.8285508760775!2d-72.50114718181379!3d7.883674278514702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66459e96087867%3A0xf3ee089214f86293!2sUniversidad%20Sim%C3%B3n%20Bol%C3%ADvar%20sede%20C%C3%BAcuta!5e0!3m2!1ses-419!2sco!4v1733071826000!5m2!1ses-419!2sco"
+        width="100%"
+        height="250"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <div class="contenedor">
+        <div class="footerFilaIzq">
+          <h4>Somos,</h4>
+          <ul>
+            <li><img src="imgpag/tecno-soft.png" alt="" width="480" /></li>
+          </ul>
+        </div>
+        <div class="footerFilaDer">
+          <div class="footerLinks">
+            <h4>Compañia</h4>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="#SobreNosotros">Sobre Nosotros</a></li>
+              <li><a href="#Servicios">Nuestros Servicios</a></li>
+            </ul>
+          </div>
+          <div class="footerLinks">
+            <h4>Paginas Legales</h4>
+            <ul>
+              <li>
+                <a href="Politicas-privacidad.html">Politicas de privacidad</a>
+              </li>
+              <li>
+                <a href="terminos-condiciones.html">Terminos y condiciones</a>
+              </li>
+              <li>
+                <a href="descargo-respon.html">Descargo de responsabilidades</a>
+              </li>
+              <li><a href="copyright.html">Copyright</a></li>
+            </ul>
+          </div>
+          <div class="footerLinks">
+            <h4>Servicios</h4>
+            <ul>
+              <li><a href="#Servicios">Desarrollo Web</a></li>
+              <li><a href="#Servicios">Consultoría</a></li>
+              <li><a href="#Servicios">Mantenimiento</a></li>
+              <li><a href="#Servicios">Optimización</a></li>
+            </ul>
+          </div>
+          <div class="footerLinks">
+            <h4>Siguenos</h4>
+            <div class="social-link">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Copyright">
+        Copyright © 2024 .Todos los derechos reservados
+      </div>
+    </footer>
+
+    <script src="js/validacionForm.js"></script>
+  </body>
+</html>
